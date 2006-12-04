@@ -14,6 +14,7 @@ BuildRequires:	automake
 BuildRequires:	libcaca-devel >= 0.99-0.beta10
 BuildRequires:	pkgconfig
 BuildRequires:	zlib-devel
+Requires:	libcaca >= 0.99-0.beta10
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
