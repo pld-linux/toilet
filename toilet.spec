@@ -1,5 +1,5 @@
 Summary:	TOIlet - free replacement for FIGlet utility
-Summary(pl):	TOIlet - wolnodostêpny zamiennik narzêdzia FIGlet
+Summary(pl.UTF-8):   TOIlet - wolnodostÄ™pny zamiennik narzÄ™dzia FIGlet
 Name:		toilet
 Version:	0.1
 Release:	2
@@ -30,19 +30,19 @@ implements or plans to implement the following features:
  - Support for colour output
  - Support for various output formats: HTML, IRC, ANSI...
 
-%description -l pl
-Projekt TOIlet ma na celu stworzenie wolnodostêpnego zamiennika
-narzêdzia FIGlet. TOIlet jest skrótem od "The Other Implementation's
-letters" (litery innej implementacji), na wzór FIGletowego "Frank,
+%description -l pl.UTF-8
+Projekt TOIlet ma na celu stworzenie wolnodostÄ™pnego zamiennika
+narzÄ™dzia FIGlet. TOIlet jest skrÃ³tem od "The Other Implementation's
+letters" (litery innej implementacji), na wzÃ³r FIGletowego "Frank,
 Ian and Glen's letters" (litery Franka, Iana i Glena). TOIlet jest we
-wczesnej fazie rozwoju. Do ró¿nych efektów tekstowych wykorzystuje
-potê¿n± bibliotekê libcucul. TOIlet ma lub ma mieæ nastêpuj±ce
-mo¿liwo¶ci:
+wczesnej fazie rozwoju. Do rÃ³Å¼nych efektÃ³w tekstowych wykorzystuje
+potÄ™Å¼nÄ… bibliotekÄ™ libcucul. TOIlet ma lub ma mieÄ‡ nastÄ™pujÄ…ce
+moÅ¼liwoÅ›ci:
 
- - wczytywanie fontów FIGleta
- - obs³ugê wej¶cia i wyj¶cia w Unicode
- - obs³ugê kolorowego wyj¶cia
- - obs³ugê ró¿nych formatów wyj¶ciowych: HTML, IRC, ANSI...
+ - wczytywanie fontÃ³w FIGleta
+ - obsÅ‚ugÄ™ wejÅ›cia i wyjÅ›cia w Unicode
+ - obsÅ‚ugÄ™ kolorowego wyjÅ›cia
+ - obsÅ‚ugÄ™ rÃ³Å¼nych formatÃ³w wyjÅ›ciowych: HTML, IRC, ANSI...
 
 %prep
 %setup -q
