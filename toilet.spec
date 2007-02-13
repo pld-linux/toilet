@@ -1,5 +1,5 @@
 Summary:	TOIlet - free replacement for FIGlet utility
-Summary(pl.UTF-8):   TOIlet - wolnodostępny zamiennik narzędzia FIGlet
+Summary(pl.UTF-8):	TOIlet - wolnodostępny zamiennik narzędzia FIGlet
 Name:		toilet
 Version:	0.1
 Release:	2
