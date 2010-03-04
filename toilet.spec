@@ -2,7 +2,7 @@ Summary:	TOIlet - free replacement for FIGlet utility
 Summary(pl.UTF-8):	TOIlet - wolnodostępny zamiennik narzędzia FIGlet
 Name:		toilet
 Version:	0.1
-Release:	2
+Release:	3
 License:	WTFPL
 Group:		Applications/Graphics
 Source0:	http://libcaca.zoy.org/files/%{name}-%{version}.tar.gz
