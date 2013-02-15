@@ -1,20 +1,21 @@
 Summary:	TOIlet - free replacement for FIGlet utility
 Summary(pl.UTF-8):	TOIlet - wolnodostępny zamiennik narzędzia FIGlet
 Name:		toilet
-Version:	0.1
-Release:	3
+Version:	0.3
+Release:	1
 License:	WTFPL
 Group:		Applications/Graphics
-Source0:	http://libcaca.zoy.org/files/%{name}-%{version}.tar.gz
-# Source0-md5:	7d26ca36c83eeca2f0c285872624c2c8
+Source0:	http://caca.zoy.org/raw-attachment/wiki/toilet/%{name}-%{version}.tar.gz
+# Source0-md5:	9b72591cb22a30c42a3184b17cabca6f
 Patch0:		%{name}-make.patch
-URL:		http://libcaca.zoy.org/toilet.html
+Patch1:		%{name}-am.patch
+URL:		http://caca.zoy.org/wiki/toilet
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
-BuildRequires:	libcaca-devel >= 0.99-0.beta10
+BuildRequires:	libcaca-devel >= 0.99-0.beta18
 BuildRequires:	pkgconfig
 BuildRequires:	zlib-devel
-Requires:	libcaca >= 0.99-0.beta10
+Requires:	libcaca >= 0.99-0.beta18
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -47,6 +48,7 @@ możliwości:
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 %{__aclocal}

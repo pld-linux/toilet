@@ -1,0 +1,11 @@
+--- toilet-0.3/configure.ac.orig	2013-02-15 16:15:46.988905389 +0100
++++ toilet-0.3/configure.ac	2013-02-15 16:17:07.148902025 +0100
+@@ -7,7 +7,7 @@
+ AC_CANONICAL_SYSTEM
+ 
+ AM_INIT_AUTOMAKE(toilet, 0.3)
+-AM_CONFIG_HEADER(config.h)
++AC_CONFIG_HEADERS(config.h)
+ 
+ AM_PROG_CC_C_O
+ AC_PROG_CPP
